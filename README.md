@@ -28,13 +28,13 @@ Type in the following commands in the terminal and press Enter.
  <img src="images/bus.JPG" width=700 >
  
  
-<img src="images/cars.JPG"width=700>
+<img src="images/cars.JPG" width=700>
 
 
-<img src="images/pedestrians.JPG"width=700>
+<img src="images/pedestrians.JPG" width=700>
 
 
-<img src="images/twowheeler.JPG"width=700>
+<img src="images/twowheeler.JPG" width=700>
 
 
 ---
