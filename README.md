@@ -25,13 +25,16 @@ Type in the following commands in the terminal and press Enter.
  **Haar Cascade Creator tool-  [Haar Training Tool used to create Haar Cascades](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&ved=0ahUKEwiapb_--bvbAhUS148KHfq5DUAQFgiQATAI&url=https://www.cs.auckland.ac.nz/~m.rezaei/Tutorials/Creating_a_Cascade_of_Haar-Like_Classifiers_Step_by_Step.pdf&usg=AOvVaw0BAeKbBkefnCykzazRxCol)**
 
  ## Result ##
- <img src="images/bus.JPG" >
+ <img src="images/bus.JPG" width=700 >
  
-<img src="images/cars.JPG">
+ 
+<img src="images/cars.JPG"width=700>
 
-<img src="images/pedestrians.JPG">
 
-<img src="images/twowheeler.JPG">
+<img src="images/pedestrians.JPG"width=700>
+
+
+<img src="images/twowheeler.JPG"width=700>
 
 
 ---
