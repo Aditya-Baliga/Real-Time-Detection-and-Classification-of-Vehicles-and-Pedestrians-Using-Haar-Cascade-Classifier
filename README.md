@@ -13,12 +13,13 @@ Each of the folder contains a python script and its associated video.
 2) Opencv-python -> Python 3.4+ comes with an easy installation tool called pip to install additional packages. (package manager)
 
 Type in the following commands in the terminal and press Enter.
+
 ``pip install numpy``
 
 ``pip install opencv-python ``
 
 
->Successfull installation of above packages may be checked by moving into python shell and typing "import cv2"  [without " " ].If no errors or warnings show up, then installation was successful.
+>Successfull installation of above packages may be checked by moving into python shell and typing "import cv2"  [without " "] .If no errors or warnings show up, then installation was successful.
 
  We had used python 3.6.1 but any version higher than 3.6.1 will also do.
 
