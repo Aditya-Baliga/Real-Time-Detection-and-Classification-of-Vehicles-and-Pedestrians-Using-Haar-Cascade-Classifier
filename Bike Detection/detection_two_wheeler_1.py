@@ -25,10 +25,10 @@ while True:
     cars = car_cascade.detectMultiScale(gray,1.01, 1)
 
 
-    for (x,y,w,h) in cars:
-        cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,215),2)
+    for (x_axis, y_axis, width, height) in cars:
+        cv2.rectangle(img, (x_axis, y_axis), (x_axis+width, y_axis+height), (0,255,215), 2)
     
-    cv2.imshow('video', img)
+    cv2.imshow('Two wheeler detection 1', img)
     
     if cv2.waitKey(33) == 27:
         break
