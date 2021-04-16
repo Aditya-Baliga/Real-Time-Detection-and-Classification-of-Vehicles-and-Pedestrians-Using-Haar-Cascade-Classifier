@@ -3,7 +3,6 @@
 import cv2
 print('Project Topic : Vehicle Classification')
 print('Research Internship on Machine learning using Images')
-print('By Aditya Baliga B and Aditya Yoggish Pai')
 print('Press escape key to exit the application')
 
 # is the trained two wheeler haar cascade file
@@ -24,13 +23,15 @@ while True:
     # here returnStatus holds true/ false, meaning able to capture/read the frame from video, 
     # img is the frame captured
     returnStatus, img = cap.read()
+    if (returnStatus == False):
+        continue;
     # if image img captured is null, exit the loop
     if (type(img) == type(None)):
         break
     
     # we could use foreground extractor background subtractor in videos
     # where background is still to improve region of interest for better detection
-    fmask = fgbg.apply(img)
+    # fmask = fgbg.apply(img)
     # cv2.imshow('with masking', fmask )
 
     # used to gray scale the image for better performance
@@ -42,8 +43,11 @@ while True:
     # detectMultiScale takes (image frame, scaling factor, no of neighbours )
     detectedTwoWheelerList = twoWheelerCascade.detectMultiScale(gray,1.01, 1)
 
+    if (len(detectedTwoWheelerList) == 0):
+        continue
+
     # Drawing rectangle(s) for above detected objects in the current frame
-    # here cv2.rectangle takes ( soure image frame, left bottom indices, top right indices, bgr color, rectangle border width)
+    # here cv2.rectangle takes ( soure image frame, top left indices, bottom right indices, bgr color, rectangle border width)
     for (x_axis, y_axis, width, height) in detectedTwoWheelerList:
         cv2.rectangle(img, (x_axis, y_axis), (x_axis+width, y_axis+height), (0,255,215), 2)
     
