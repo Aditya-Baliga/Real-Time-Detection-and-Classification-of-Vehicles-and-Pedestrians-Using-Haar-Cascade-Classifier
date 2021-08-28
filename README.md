@@ -37,7 +37,7 @@ Type in the following commands in the terminal and press Enter.
 
 <img src="images/twowheeler.JPG" width=700>
 
-Team Member: Aditya Pai (https://github.com/AdityaPai2398)
+Please refer the PDF for more details on how the the XML files required for detection is generated
 
 
 ---
